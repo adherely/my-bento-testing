@@ -7,7 +7,7 @@
       rel="noopener"
       class="documentation-link"
       target="_blank"
-      href="https://bento-starter.netlify.com/"
+      href="https://www.mayoclinic.org/tests-procedures/cognitive-behavioral-therapy/about/pac-20384610"
       >Documentation →</a
     >
   </div>
@@ -46,6 +46,7 @@ export default {
 
   .logo {
     margin-bottom: 3rem;
+    width: 5rem;
   }
 
   .home-page-title {
