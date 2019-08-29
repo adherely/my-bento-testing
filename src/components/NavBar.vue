@@ -10,9 +10,6 @@
         <div class="nav-item">
           <router-link to="/products">Therapies</router-link>
         </div>
-        <div class="nav-item">
-          <router-link to="/Exercises">Exercises</router-link>
-        </div>
         <div v-if="!isUserLoggedIn && networkOnLine" class="nav-item">
           <router-link to="/login">Login</router-link>
         </div>
