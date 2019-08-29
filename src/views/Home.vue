@@ -10,6 +10,10 @@
       href="https://www.mayoclinic.org/tests-procedures/cognitive-behavioral-therapy/about/pac-20384610"
       >Documentation →</a
     >
+
+    <div class='exercises-btn'>
+      <p class='exercises-btn-text'>Exercises</p>
+    </div>
   </div>
 </template>
 
@@ -65,6 +69,27 @@ export default {
     text-decoration: none;
     width: fit-content;
     font-weight: 500;
+  }
+
+  .exercises-btn {
+    display: inline-block;
+    margin-top: 5%;
+    box-sizing: border-box;
+    padding: 0.8rem 1.6rem;
+    border-radius: 4px;
+    background-color: #5d6788;
+    transform: scale(1);
+    transition: all 0.1s ease;
+  }
+
+  .exercises-btn:active {
+    transform: scale(1.1);
+    transition: all 0.1s ease;
+  }
+
+  .exercises-btn-text {
+    color: #47A1A9;
+    font-size: 1.2rem;
   }
 }
 </style>
