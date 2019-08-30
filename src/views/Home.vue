@@ -12,7 +12,7 @@
     >
 
     <div class='exercises-btn'>
-      <p class='exercises-btn-text'>Exercises</p>
+      <p class='exercises-btn-text'>Exercises</p>//
     </div>
   </div>
 </template>
